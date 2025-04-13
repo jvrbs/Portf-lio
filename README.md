@@ -1,4 +1,5 @@
 Portfólio Pessoal - João Ribas
+
 Olá! 👋 Sou João Ribas, estudante de Sistemas de Informação e desenvolvedor iniciante. Este é meu portfólio pessoal, onde compartilho minhas habilidades, trajetória e projetos.
 
 🚀 Sobre o Projeto

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #2f2f2f;
+    font-family: 'Instrument Sans', sans-serif;
+    color: white;
+  }
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background: #3a3a3a;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin: 60px;
+
+}
+  
+.logo img {
+    width: 78px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background 0.3s;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background: #4b4b4b;
+}
+
+.hero {
+    display: flex; ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+    background: #3a3a3a ;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.hero-text {
+    font-size: 1.1em;
+    color: #ccc;
+  }
+  
+ 
+  .hero-text h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+    text-shadow: 5px 3px 0 #a259ff; 
+    margin: 10px 0;
+  }
+  
+  .hero-text p {
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+
+.btn {
+    background: #7E4BA7;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px;
+    margin-top: 20px;
+}
+
+.social-icons {
+    margin-top: 10px; 
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+
+.hero-img img {
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    margin-right: 70px;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px;
+    background: #3a3a3a ;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.about-text {
+    border-left: 1px solid #fff;
+    padding-left: 16px;
+}
+
+.about-text p {
+    font-size: 17px;
+    color: white;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+.about-text h2{
+    font-size: 20px;
+}
+
+.about-text h1{
+    font-size: 30px;
+}
+
+.about-img{
+    margin-top: -300px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }

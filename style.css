@@ -144,3 +144,25 @@ nav a:hover {
 html {
     scroll-behavior: smooth;
   }
+
+
+  .skills {
+    text-align: center;
+    background: #3a3a3a;
+    padding: 20px 40px;
+    border-radius: 30px;
+    margin: 60px;
+}
+
+.skills h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.skills ul {
+    display: inline-flex;
+    list-style: none;
+    gap: 170px;
+    padding: 0;
+    justify-content: center;
+}

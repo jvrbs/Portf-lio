@@ -22,7 +22,7 @@ HTML5	Git
 CSS3	GitHub
 📂 Como Acessar
 O site está hospedado no GitHub Pages:
-🔗 Link do Portfólio (em breve)
+🔗 https://jvrbs.github.io/Portf-lio/
 
 Ou execute localmente:
 

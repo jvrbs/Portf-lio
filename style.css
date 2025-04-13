@@ -166,3 +166,45 @@ html {
     padding: 0;
     justify-content: center;
 }
+
+footer {
+    background-color: #3a3a3a; /* fundo escuro */
+    color: white;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    border-radius: 30px;
+    max-width: 1233px;
+    margin: auto;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contato img {
+    padding: 10px;
+    border-radius: 50%;
+    width: 64px;
+    height: 64 px;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.contato p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}

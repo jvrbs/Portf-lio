@@ -11,10 +11,10 @@ Sobre Mim → Minha jornada e objetivos
 
 Skills → Tecnologias que estou aprendendo (HTML, CSS, Git, Python)
 
+Contato → Formas de contato
+
 🔜 Novas Seções em Desenvolvimento
 📂 Portfólio de Projetos → Mostrarei meus trabalhos práticos e evolução na programação.
-
-📩 Contato Direto → Incluirei um formulário ou métodos fáceis para conversarmos.
 
 💻 Tecnologias Usadas
 Front-end	Ferramentas

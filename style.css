@@ -53,6 +53,7 @@ nav a:hover {
     background: #3a3a3a ;
     padding: 40px;
     border-radius: 30px;
+    gap: 300px;
 }
 
 .hero-text {
@@ -99,9 +100,8 @@ nav a:hover {
 
 
 .hero-img img {
-    border-radius: 50%;
-    width: 260px;
-    height: 260px;
+    width: 400px;
+    height: auto;
     object-fit: cover;
     margin-right: 70px;
 }
@@ -120,6 +120,7 @@ nav a:hover {
 .about-text {
     border-left: 1px solid #fff;
     padding-left: 16px;
+    text-indent: 40px;
 }
 
 .about-text p {
@@ -162,7 +163,7 @@ html {
 .skills ul {
     display: inline-flex;
     list-style: none;
-    gap: 170px;
+    gap: 90px;
     padding: 0;
     justify-content: center;
 }

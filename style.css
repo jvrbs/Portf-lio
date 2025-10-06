@@ -209,3 +209,274 @@ footer h1 {
     font-weight: bold;
     margin: 0;
 }
+
+/* ========== RESPONSIVIDADE ========== */
+
+/* Tablets (até 1024px) */
+@media (max-width: 1024px) {
+    header {
+        margin: 40px 30px;
+        padding: 15px 30px;
+    }
+    
+    .hero {
+        margin: 40px 30px;
+        gap: 100px;
+        padding: 30px;
+    }
+    
+    .hero-img img {
+        width: 300px;
+        margin-right: 0;
+    }
+    
+    .about {
+        margin: 40px 30px;
+        padding: 30px;
+    }
+    
+    .skills {
+        margin: 40px 30px;
+    }
+    
+    .skills ul {
+        gap: 40px;
+    }
+}
+
+/* Tablets Pequenos (até 768px) */
+@media (max-width: 768px) {
+    header {
+        margin: 30px 20px;
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    nav ul {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 30px 20px;
+        gap: 40px;
+        padding: 30px 20px;
+    }
+    
+    .hero-text h1 {
+        font-size: 2.2em;
+    }
+    
+    .hero-img img {
+        width: 250px;
+    }
+    
+    .about {
+        flex-direction: column;
+        margin: 30px 20px;
+        padding: 30px 20px;
+        text-align: center;
+    }
+    
+    .about-text {
+        border-left: none;
+        border-top: 1px solid #fff;
+        padding-left: 0;
+        padding-top: 20px;
+        text-indent: 0;
+    }
+    
+    .about-img {
+        margin-top: 20px;
+    }
+    
+    .about-img img {
+        width: 80px;
+    }
+    
+    .skills {
+        margin: 30px 20px;
+        padding: 20px;
+    }
+    
+    .skills ul {
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    
+    footer {
+        margin: 30px 20px;
+        padding: 30px 20px;
+    }
+}
+
+/* Smartphones (até 480px) */
+@media (max-width: 480px) {
+    header {
+        margin: 20px 15px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+    
+    .logo img {
+        width: 60px;
+    }
+    
+    nav ul {
+        gap: 15px;
+    }
+    
+    nav a {
+        padding: 6px 10px;
+        font-size: 0.9em;
+    }
+    
+    .hero {
+        margin: 20px 15px;
+        padding: 25px 15px;
+        border-radius: 20px;
+    }
+    
+    .hero-text h1 {
+        font-size: 1.8em;
+        text-shadow: 3px 2px 0 #a259ff;
+    }
+    
+    .hero-text p {
+        font-size: 1em;
+    }
+    
+    .hero-img img {
+        width: 200px;
+    }
+    
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+        margin: 10px;
+    }
+    
+    .about {
+        margin: 20px 15px;
+        padding: 25px 15px;
+        border-radius: 20px;
+    }
+    
+    .about-text h1 {
+        font-size: 1.5em;
+    }
+    
+    .about-text h2 {
+        font-size: 1.1em;
+    }
+    
+    .about-text p {
+        font-size: 0.9em;
+        line-height: 1.6;
+    }
+    
+    .skills {
+        margin: 20px 15px;
+        padding: 20px 15px;
+        border-radius: 20px;
+    }
+    
+    .skills h1 {
+        font-size: 1.5em;
+    }
+    
+    .skills ul {
+        gap: 20px;
+    }
+    
+    .skills li {
+        flex: 0 0 calc(50% - 20px);
+    }
+    
+    .skills img {
+        width: 40px;
+    }
+    
+    .contato img {
+        width: 48px;
+        padding: 8px;
+    }
+    
+    .contato p {
+        font-size: 0.9em;
+    }
+    
+    footer {
+        margin: 20px 15px;
+        padding: 25px 15px;
+        border-radius: 20px;
+    }
+}
+
+/* Smartphones Muito Pequenos (até 360px) */
+@media (max-width: 360px) {
+    header {
+        margin: 15px 10px;
+    }
+    
+    nav ul {
+        gap: 10px;
+    }
+    
+    nav a {
+        padding: 5px 8px;
+        font-size: 0.8em;
+    }
+    
+    .hero {
+        margin: 15px 10px;
+        padding: 20px 10px;
+    }
+    
+    .hero-text h1 {
+        font-size: 1.5em;
+    }
+    
+    .hero-img img {
+        width: 150px;
+    }
+    
+    .about {
+        margin: 15px 10px;
+        padding: 20px 10px;
+    }
+    
+    .skills {
+        margin: 15px 10px;
+        padding: 15px 10px;
+    }
+    
+    .skills ul {
+        gap: 15px;
+    }
+    
+    .skills li {
+        flex: 0 0 calc(50% - 15px);
+    }
+    
+    footer {
+        margin: 15px 10px;
+        padding: 20px 10px;
+    }
+}
+
+/* Ajustes para altura da tela */
+@media (max-height: 600px) and (orientation: landscape) {
+    .hero {
+        padding: 20px 40px;
+        min-height: auto;
+    }
+    
+    .hero-img img {
+        width: 200px;
+    }
+}
